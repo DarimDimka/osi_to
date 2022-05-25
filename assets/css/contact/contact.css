@@ -1,0 +1,51 @@
+.contact-map {
+	height: 530px;
+	position: relative;
+}
+
+.contact-map iframe {
+	width: 100%;
+}
+
+.contact-map .map-hover {
+	background: #ffffff;
+	display: inline-block;
+	padding: 20px 40px 20px 28px;
+	position: absolute;
+	left: 50%;
+	top: 130px;
+	-webkit-box-shadow: 6px 6px 50px rgba(0, 0, 0, 0.2);
+	box-shadow: 6px 6px 50px rgba(0, 0, 0, 0.2);
+}
+
+.contact-map .map-hover:after {
+	position: absolute;
+	left: 107px;
+	bottom: -20px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 28px solid #ffffff;
+	content: "";
+}
+
+.contact-map .map-hover h5 {
+	font-size: 20px;
+	color: #252525;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.contact-map .map-hover ul li {
+	font-size: 14px;
+	color: #151515;
+	line-height: 20px;
+	list-style: none;
+}
+
+.contact-map .map-hover i {
+	font-size: 48px;
+	color: #e4381C;
+	position: absolute;
+	left: 98px;
+	bottom: -72px;
+}

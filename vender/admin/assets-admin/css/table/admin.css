@@ -1,0 +1,11 @@
+.admin-container {
+	margin-top: 120px;
+	color: black;
+}
+
+.admin-container .table {
+    color: rgb(0, 0, 0);
+}
+.admin-form .row div {
+    margin-bottom: 50px;
+}
